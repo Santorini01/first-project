@@ -1,0 +1,323 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.sectionOne{
+    background-image: url(./Images/hero\ bacground\ 1.svg);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+.logo{
+    padding-top: 10px;
+}
+.headerList ul{
+    list-style-type: none;
+    display: flex;
+    color: #FFFFFF;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.headerList li{
+    padding-right: 30px;
+}
+.headerButton button{
+    background: #1BC768;
+    color: #FFFFFF;
+    border-radius: 50px;
+    border: none;
+    align-items: center;
+    padding: 10px 38px;
+    gap: 10px;
+}
+
+.searchBar input{
+    background-image: url(./Images/Vectorsearch.png);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    padding: 10px;
+}
+.searchBar{
+    width: 100%;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.text h1{
+    font-family: "Avenir";
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 65.57px;
+    color:#FFFFFF;
+}
+.text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.59px;
+    color:#FFFFFF;
+    width: 75%;
+}
+
+.locations{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 20px 0px;
+} 
+.locations p{
+    border: 1px solid white;
+    padding: 
+    10px 30px;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+.ikeja{
+    background-color: #FFFFFF;
+}
+.locations .ikeja{
+color: #043CAA;
+}
+
+.affiliation{
+    text-align: center;
+    padding: 60px;
+    color: #043CAA;
+}
+.partners{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+}
+.benefit{
+    /* width: 80%; */
+    margin: auto;
+    padding-top: 60px;
+}
+.benefitHead{
+    text-align: center;
+    color: #043CAA;
+}
+.underBenefit{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    width: 80%;
+    margin: auto;
+}
+.medicine{
+    padding-top: 15%;
+}
+.medicine h2{
+    color: #043CAA;
+    font-size: 24px;
+    line-height: 32px;
+    width: 60%;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.medicine ul{
+    list-style: none;
+    color:#333333;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.medicine li{
+    padding: 10px;
+}
+.medicine li img{
+    margin-left: -7px;
+    margin-right: 10px;
+}
+.medicine p{
+    border: 1px solid  #1BC768;
+    padding: 9px 9px;
+    border-radius: 50px;
+    color:  #1BC768;
+    font-size: 23px;
+    width: 65%;
+    text-align: center;
+
+}
+.medicine p img{
+    margin-left: 10px;
+    margin-bottom: -8px;
+}
+
+.doorstep{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    width: 80%;
+    margin: auto;
+}
+.door{
+    padding-top: 5%;
+    margin-left: 40px;
+}
+.door h2{
+    color: #043CAA;
+    font-size: 24px;
+    line-height: 32px;
+    width: 60%;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.door ul{
+    list-style: none;
+    color:#333333;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.door li{
+    padding: 10px;
+}
+.door li img{
+    margin-left: -7px;
+    margin-right: 10px;
+}
+.door p{
+    border: 1px solid  #1BC768;
+    padding: 9px 9px;
+    border-radius: 50px;
+    color:  #1BC768;
+    font-size: 23px;
+    width: 65%;
+    text-align: center;
+
+}
+.door p img{
+    margin-left: 10px;
+    margin-bottom: -8px;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    width: 80%;
+    margin: auto;
+
+}
+.profText{
+    padding-top: 15%;
+}
+.profText h2{
+    color: #043CAA;
+    font-size: 24px;
+    line-height: 32px;
+    width: 60%;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.profText ul{
+    list-style: none;
+    color:#333333;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.profText li{
+    padding: 10px;
+}
+.profText li img{
+    margin-left: -7px;
+    margin-right: 10px;
+}
+.profText p{
+    border: 1px solid  #1BC768;
+    padding: 9px 3px;
+    border-radius: 50px;
+    color:  #1BC768;
+    font-size: 18px;
+    width: 50%;
+    text-align: center;
+
+}
+.profText p img{
+    margin-left: 8px;
+    margin-bottom: -8px;
+}
+
+.testimony{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.testimony>img{
+    width: 45%;
+    height: 40%;
+}
+.clients{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.clientHead h1{
+    font-size: 36px;
+    font-weight: 800;
+}
+.clientHead img{
+    margin-left: 30%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+.clients p{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #7A7A7A;
+
+    padding-bottom: 10px;
+    width: 76%;
+}
+.clients h4{
+    color:  #043CAA;
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.testimony img{
+    padding-bottom: 10%;
+
+}
+
+footer{
+    background-color:  #043CAA;
+    color: #FFFFFF;
+}
+.sign{
+    padding-top: 5%;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.signUp h2{
+    font-family:  Avenir;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 30%;
+    
+    
+}
+.form{
+    margin-top: 30px;
+}
